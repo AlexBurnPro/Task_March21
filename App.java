@@ -80,7 +80,7 @@ public class App {
 
                 letters = strIn.substring(ind + 1, i + 1);
                 result.append(letters);
-                outer = false;   //добавлено
+                outer = false;
             }
         }
         parseString(result.toString());
