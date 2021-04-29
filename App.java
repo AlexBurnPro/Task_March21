@@ -3,7 +3,7 @@ package task;
 public class App {
 
     /**
-     * проверяем строку
+     * проверяем строку на вложенность
      */
     public void checkString(String in) {
         StringBuilder str = new StringBuilder();
