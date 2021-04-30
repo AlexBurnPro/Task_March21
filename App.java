@@ -3,7 +3,7 @@ package task;
 public class App {
 
     /**
-     * проверяем строку на вложенность
+     * проверяем строку на вложенность вида 2[3[x]y]
      */
     public void checkString(String in) {
         StringBuilder str = new StringBuilder();
@@ -28,7 +28,7 @@ public class App {
 
     /**
      * с вложенными повторениями в строке,
-     * вида 2[3[x]y]
+     * вида с
      */
     private void inversionString(String strIn) {
 
