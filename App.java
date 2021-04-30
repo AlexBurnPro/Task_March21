@@ -28,7 +28,7 @@ public class App {
 
     /**
      * с вложенными повторениями в строке,
-     * вида с
+     * вида 2[3[x]y]
      */
     private void inversionString(String strIn) {
 
